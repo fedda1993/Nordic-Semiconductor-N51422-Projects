@@ -15,8 +15,8 @@ Assembler:       Armasm.exe V5.06 update 1 (build 61)
 Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
 Library Manager: ArmAr.exe V5.06 update 1 (build 61)
 Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
-CPU DLL:         SARMCM3.DLL V5.18a
-Dialog DLL:      DARMCM1.DLL V1.12.0.0
+CPU DLL:         
+Dialog DLL:      
 Target DLL:      Segger\JL2CM3.dll V2.99.19.0
 Dialog DLL:      TARMCM1.DLL V1.9.0.0
  
@@ -27,11 +27,17 @@ Project File Date:  04/26/2016
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'nrf51422_xxac'
+assembling arm_startup_nrf51.s...
+compiling nrf_delay.c...
+compiling system_nrf51.c...
 compiling main.c...
+main.h(1): warning:  #1-D: last line of file ends without a newline
+  #include "boards.h"
+main.c: 1 warning, 0 errors
 linking...
-Program Size: Code=728 RO-data=224 RW-data=4 ZI-data=4196  
+Program Size: Code=516 RO-data=224 RW-data=4 ZI-data=2052  
 FromELF: creating hex file...
-".\_build\nrf51422_xxac.axf" - 0 Error(s), 0 Warning(s).
+".\_build\nrf51422_xxac.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 

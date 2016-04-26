@@ -3,7 +3,7 @@
 ".\_build\nrf_delay.o"
 ".\_build\arm_startup_nrf51.o"
 ".\_build\system_nrf51.o"
---strict --scatter ".\_build\nrf51422_xxac.sct"
+--library_type=microlib --strict --scatter ".\_build\nrf51422_xxac.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\nrf51422_xxac.map" -o .\_build\nrf51422_xxac.axf

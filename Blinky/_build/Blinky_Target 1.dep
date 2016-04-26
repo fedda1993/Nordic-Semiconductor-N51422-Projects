@@ -1,0 +1,18 @@
+Dependencies for Project 'Blinky', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x571FE356)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I D:\Documents\Nordic\KeilProjects\Nordic-Semiconductor-N51422-Projects\Blinky\RTE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF51-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB7FD6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+F (RTE\Device\nRF51422_xxAC\arm_startup_nrf51.s)(0x5708AAEE)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\Documents\Nordic\KeilProjects\Nordic-Semiconductor-N51422-Projects\Blinky\RTE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "NRF51 SETA 1"--list .\listings\arm_startup_nrf51.lst --xref -o .\objects\arm_startup_nrf51.o --depend .\objects\arm_startup_nrf51.d)
+F (RTE\Device\nRF51422_xxAC\system_nrf51.c)(0x5708AAEE)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I D:\Documents\Nordic\KeilProjects\Nordic-Semiconductor-N51422-Projects\Blinky\RTE-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF51-o .\objects\system_nrf51.o --omf_browse .\objects\system_nrf51.crf --depend .\objects\system_nrf51.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB7FD6)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708AAEE)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51.h)(0x5708AAEC)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x56260B6C)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625F7B0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625F7B0)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625F7B0)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf51.h)(0x5708AAEE)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_bitfields.h)(0x5708AAEC)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_deprecated.h)(0x5708AAEE)
+I (D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708AAEE)
